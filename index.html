@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeeksterPok</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>GeeksterPok</h1>
+        <div class="controls">
+            <select id="typeFilter">
+                <option value="">Filter by Type</option>
+            </select>
+            <button id="resetButton" class="control-btn">Reset</button>
+            <input type="text" id="searchBar" placeholder="Search Pokémon...">
+            <button id="searchButton" class="control-btn">Search</button>
+        </div>
+    </header>
+
+    <section id="pokemonContainer" class="pokemon-container">
+        <!-- Pokémon cards will be populated dynamically -->
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
